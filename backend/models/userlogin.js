@@ -1,6 +1,6 @@
 const { createHmac, randomBytes } = require('crypto');
 const mongoose = require('mongoose');
-const { createToken } = require('../services/auth'); // Ensure this path is correct
+// Ensure this path is correct
 const jwt = require('jsonwebtoken')
 const userSchema = new mongoose.Schema({
   name: {

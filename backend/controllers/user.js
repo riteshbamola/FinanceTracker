@@ -1,4 +1,3 @@
-const { createToken } = require('../services/auth');
 const User = require('../models/userlogin'); // Assuming you have a User model
 const jwt = require('jsonwebtoken')
 // User signup
